@@ -5,13 +5,28 @@
     </head>
     <body>
         <div>
-            <div><img src="assests\images\logo.png" alt="logo" height="200" width="150"/>
-                <a href="login.html" target="_blank">Login</a>
+            <div><a href="html"><img src="assests\images\logo.png" alt="logo" height="200" width="150"/></a>
+                <a href="login.html" target="_self">Login</a>
             </div>
             
             <div>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/><br/>
-                <a href="payment.html">Book Now</a> 
+                <form action="payment.html" method="GET">
+                    <label for="adult">Adults:</label>
+                    <input type="number" id="adult" name="adult"  min="1" required><br/>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br/>
+                    <label for="fromDate">From Date:</label>
+                    <input type="date" id="fromDatee" name="fromDate" required><br/>
+                    <label for="toDate">To Date : </label>
+                    <input type="date" id="toDate" name="toDate" required><br>
+                    <label for="price">Total : </label>
+                    <input type="number" id="price" name="price" disabled><br>
+                    <input type="submit" value="Book Now"><br>
+                    
+                    
+                </form>
+
                 <h2>Radisson Blu Hotel</h2>
                 <p>RATING</p>
                 <P> 5 Star</P>
@@ -27,7 +42,7 @@
                 <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque minima repellat dolorem commodi voluptate perspiciatis earum facilis, sed soluta rem! Aliquid saepe ipsum quas, voluptatem laborum rerum ipsam quisquam.</P>
             </div>
             <div>
-                <a href="contact.html" target="_blank">Contact Us</a><br/>
+                <a href="contact.html" target="_self">Contact Us</a><br/>
                 <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px"/></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px"/></a>
                 <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px"/></a>
