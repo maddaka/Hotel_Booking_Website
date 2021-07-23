@@ -3,7 +3,7 @@
     <head>
         <title>Detail</title>
         <link rel="stylesheet" href="styles/common.css">
-        <link rel="stylesheet" href="styles/list.css">
+        <link rel="stylesheet" href="styles/detail.css">
     </head>
     <body>
         <header>
@@ -13,8 +13,8 @@
             
             
         <div>
-            <img  class="img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/><br/>
-            <form action="payment.html" method="GET">
+            <img  class="img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
+            <form action="payment.html" method="GET" class="form">
                 <label for="adult">Adults:</label>
                 <input type="number" id="adult" name="adult"  min="1" required><br/>
                 <label for="name">Name:</label>
@@ -30,28 +30,29 @@
                     
                     
             </form>
-
-            <h2>Radisson Blu Hotel</h2>
-            <p>RATING</p>
-            <P> 5 Star</P>
-            <p>AMENITIES</p>
-            <ul>
-                <li>Room service</li>
-                <li>Restaurant</li>
-                <li>Business center</li>
-                <li>Fitness center</li>
-                <li>Pool</li>
-            </ul>
-            <h5>DESCRIPTION</h5>
-            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque minima repellat dolorem commodi voluptate perspiciatis earum facilis, sed soluta rem! Aliquid saepe ipsum quas, voluptatem laborum rerum ipsam quisquam.</P>
+            <div class="description">
+                <h2>Radisson Blu Hotel</h2>
+                <p>RATING</p>
+                <P> 5 Star</P>
+                <p>AMENITIES</p>
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5>DESCRIPTION</h5>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque minima repellat dolorem commodi voluptate perspiciatis earum facilis, sed soluta rem! Aliquid saepe ipsum quas, voluptatem laborum rerum ipsam quisquam.</P>
             
-           
+            </div>
+            
         <footer>
             <a href="contact.html" target="_self">Contact Us</a><br/>
             <a href="https://www.facebook.com" target="_blank"><img class="social-icons" src="assests/images/facebook.png" /></a>
             <a href="https://www.instagram.com" target="_blank"><img class="social-icons"  src="assests/images/instagram.png" /></a>
-            <a href="https://twitter.com" target="_blank"><img  class="social-icons" src="assests/images/twitter.png" /></a>
-            <p>&copy; 2020 ROOM SEARCH PVT.LTD.</p>
+            <a href="https://twitter.com" target="_blank"><img  class="social-icons" src="assests/images/twitter.png" /></a><br/>
+            <span>&copy; 2020 ROOM SEARCH PVT.LTD.</span>
         </footer>
 
     </body>

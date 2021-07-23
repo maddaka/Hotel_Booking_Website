@@ -1,6 +1,9 @@
 body{
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+    
 }
 .logo{
     height: 60px;
@@ -9,6 +12,12 @@ body{
 .social-icons{
     height: 20px;
     width: 22px;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
 }
 
 
