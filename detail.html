@@ -4,56 +4,61 @@
         <title>Detail</title>
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/detail.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <a href="index.html"><img class="logo" src="assests\images\logo.png" alt="logo"></a>
-            <a href="login.html" target="_self">Login</a>
-        </header>
-            
-            
-        <div>
-            <img  class="img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
-            <form action="payment.html" method="GET" class="form">
-                <label for="adult">Adults:</label>
-                <input type="number" id="adult" name="adult"  min="1" required><br/>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br/>
-                <label for="fromDate">From Date:</label>
-                <input type="date" id="fromDatee" name="fromDate" required><br/>
-                <label for="toDate">To Date : </label>
-                <input type="date" id="toDate" name="toDate" required><br>
-                <label for="price">Total : </label>
-                <input type="number" id="price" name="price" disabled><br>
-                <input type="submit" value="Book Now"><br>
+        <div id="full">
+            <header>
+                <a href="index.html"><img class="logo" src="assests\images\logo.png"/></a>
+                <a href="login.html" target="_self" class="login">Login</a>
+            </header>
+            <div class="content">
+                <img  class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
+                <form action="payment.html" method="GET" class="form">
+                    <label for="adult">Adults:</label>
+                    <input type="number" id="adult" name="adult"  min="1" required><br/>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br/>
+                    <label for="fromDate">From Date:</label>
+                    <input type="date" id="fromDate" name="fromDate" required><br/>
+                    <label for="toDate">To Date : </label>
+                    <input type="date" id="toDate" name="toDate" required><br>
+                    <label for="price">Total : </label>
+                    <input type="number" id="price" name="price" disabled><br>
+                    <input type="submit" value="Book Now"><br>        
+                        
+                </form>
+                <div id="details">
+                    <h2>Radisson Blu Hotel</h2><br/>
+                    <p>RATING</p><br/>
+                    <P> 5 Star</P><br/>
+                    <p>AMENITIES</p>
+                    <ul id="details">
+                        <li>Room service</li>
+                        <li>Restaurant</li>
+                        <li>Business center</li>
+                        <li>Fitness center</li>
+                        <li>Pool</li>
+                    </ul>
                     
                     
-                    
-            </form>
-            <div class="description">
-                <h2>Radisson Blu Hotel</h2>
-                <p>RATING</p>
-                <P> 5 Star</P>
-                <p>AMENITIES</p>
-                <ul>
-                    <li>Room service</li>
-                    <li>Restaurant</li>
-                    <li>Business center</li>
-                    <li>Fitness center</li>
-                    <li>Pool</li>
-                </ul>
-                <h5>DESCRIPTION</h5>
-                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque minima repellat dolorem commodi voluptate perspiciatis earum facilis, sed soluta rem! Aliquid saepe ipsum quas, voluptatem laborum rerum ipsam quisquam.</P>
+                </div>
+                <div id="details" >
+                    <h5>DESCRIPTION</h5><br/>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque minima repellat dolorem commodi voluptate perspiciatis earum facilis, sed soluta rem! Aliquid saepe ipsum quas, voluptatem laborum rerum ipsam quisquam.</P>
             
-            </div>
-            
-        <footer>
-            <a href="contact.html" target="_self">Contact Us</a><br/>
-            <a href="https://www.facebook.com" target="_blank"><img class="social-icons" src="assests/images/facebook.png" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img class="social-icons"  src="assests/images/instagram.png" /></a>
-            <a href="https://twitter.com" target="_blank"><img  class="social-icons" src="assests/images/twitter.png" /></a><br/>
-            <span>&copy; 2020 ROOM SEARCH PVT.LTD.</span>
-        </footer>
+                </div>
+                <footer>
+                    <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+                    <span style="padding-left: 85%;">
+                    <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
+                    <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
+                    <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
+                    </span>
+                    <span style = "padding-left: 40%;"> © 2020 ROOM SEARCH PVT. LTD</span>
+                </footer> 
+
+        </div>
 
     </body>
 </html>

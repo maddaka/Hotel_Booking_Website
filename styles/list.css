@@ -1,9 +1,36 @@
-.city-image{
+.content{
+    margin: 5%;
+}
+.hotel-images {
     height: 200px;
     width: 250px;
 }
-.city-image-style{
-    margin: 2%;
-    background-color: rgb(132,136,139);
-    width: 40%;
+#map-view {
+    display: none;
 }
+.hotel-card {
+    margin: 2% 4%;
+    background-color: rgb(132, 136, 139);
+    width: 40%; 
+    display: inline-block;
+}
+
+#list-view > a {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+ul > li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    margin-right: 2%;
+}
+#main{
+     height: 100%;
+     width: 100%;
+} 

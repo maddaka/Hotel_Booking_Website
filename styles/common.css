@@ -1,23 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
 body{
     height: 100%;
     width: 100%;
     margin: 0;
     background-color: #e0e0e0;
+    font-family: Ubuntu, sans-serif;
     
 }
 .logo{
     height: 60px;
     width: 60px;
+    
+}
+header{
+    background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:auto;
 }
 .social-icons{
     height: 20px;
     width: 22px;
+    margin-top:15px;
+    padding: 2px;
 }
-header{
-    background-color: rosybrown;
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
+#contactus{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+main{
+    width: 100vw;
+    margin:0 auto;
+    padding: 50px 20px;
+}
+
 footer{
     background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height:auto;
+    top:auto;
 }
 
 
