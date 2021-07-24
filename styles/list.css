@@ -1,9 +1,4 @@
-.view {
-    text-decoration: none;
-    padding-left: 42%;
-    padding-right: 2%;
 
-}
 .hotelImage {
     height: 250px;
     width:250px;
@@ -45,7 +40,15 @@ h3{
 .content{
     padding:4%;
 }
-.links{
-    display:flex;
+#links{
     margin:2%;
   }
+p>a{
+    color: black;
+}
+.contentDiv:hover{
+    background-color: rosybrown;
+}
+#pills-tab {
+    justify-content: center;
+}
