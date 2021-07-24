@@ -26,21 +26,24 @@ header{
     left:0;
     width: 100%;
     height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 .social-icons{
     height: 20px;
     width: 22px;
-    margin-top:15px;
     padding: 2px;
 }
 
 .login {
     position: absolute;
-    top: 15px;
     right: 5px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin: 1%;
+    margin-right: 10px;
 }
 #contactus{
     position: relative;
@@ -63,6 +66,11 @@ footer{
     width: 100%;
     height:auto;
     top:auto;
+    display: flex;
+    justify-content:space-between;
+    vertical-align: middle;
+    padding: 1%;
 }
-
-
+#copyright{
+    font-size: 10px;
+}

@@ -7,58 +7,82 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="full">
-            <header>
-                <a href="index.html"><img class="logo" src="assests\images\logo.png"/></a>
-                <a href="login.html" target="_self" class="login">Login</a>
-            </header>
-            <div class="content">
-                <img  class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
-                <form action="payment.html" method="GET" class="form">
-                    <label for="adult">Adults:</label>
-                    <input type="number" id="adult" name="adult"  min="1" required><br/>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br/>
-                    <label for="fromDate">From Date:</label>
-                    <input type="date" id="fromDate" name="fromDate" required><br/>
-                    <label for="toDate">To Date : </label>
-                    <input type="date" id="toDate" name="toDate" required><br>
-                    <label for="price">Total : </label>
-                    <input type="number" id="price" name="price" disabled><br>
-                    <input type="submit" value="Book Now"><br>        
-                        
-                </form>
-                <div id="details">
-                    <h2>Radisson Blu Hotel</h2><br/>
-                    <p>RATING</p><br/>
-                    <P> 5 Star</P><br/>
-                    <p>AMENITIES</p>
-                    <ul id="details">
-                        <li>Room service</li>
-                        <li>Restaurant</li>
-                        <li>Business center</li>
-                        <li>Fitness center</li>
-                        <li>Pool</li>
-                    </ul>
-                    
+        
+        <header>
+            <a href="index.html"><img class="logo" src="assests\images\logo.png"/></a>
+            <a href="login.html" target="_self" class="login">Login</a>
+        </header>
+        <div class="full">
+            <div class="container">
+                <div class="container1">
+                    <div id="img">
+                        <img  class="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
+                    </div>
                     
                 </div>
-                <div id="details" >
-                    <h5>DESCRIPTION</h5><br/>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque minima repellat dolorem commodi voluptate perspiciatis earum facilis, sed soluta rem! Aliquid saepe ipsum quas, voluptatem laborum rerum ipsam quisquam.</P>
             
+                <div class="container2">
+                    <form action="payment.html" method="GET" class="formStyle">
+                        <div class="a">
+                            <label for="adult">Adults:</label>
+                            <input type="number" id="adult" name="adult"  min="1" required><br/>
+                        </div>
+                        <div class="a">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br/>
+                        </div>
+                        <div class="a">
+                            <label for="fromDate">From Date:</label>
+                            <input type="date" id="fromDate" name="fromDate" required><br/>
+                        </div>
+                        <div class="a">
+                            <label for="toDate">To Date : </label>
+                            <input type="date" id="toDate" name="toDate" required><br>
+                        </div>
+                        <div class="a">
+                            <label for = "price">Total :</label>
+                            <input type ="number" id = "price" name = "price" readonly="readonly"><br>
+                        </div>
+                        <div class="submitstyle">
+                            <input type = "submit" value = "Book Now" id="submit">
+                        </div>
+                    </form>  
+                    
+                    
+            </div>
+               
+            
+            <div class="details">
+                <h2>Radisson Blu Hotel</h2>
+                <h5>RATING</h5>
+                <P> 5 Star</P>
+                <h5>AMENITIES</h5>
+                <ul >
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+
+                <div>
+                    <h5>DESCRIPTION</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi.</p>
                 </div>
-                <footer>
-                    <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
-                    <span style="padding-left: 85%;">
+     
+            </div>
+            
+            <footer>
+                <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+                <span id="copyright"> © 2020 ROOM SEARCH PVT. LTD</span>
+                <span>
                     <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
                     <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
                     <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
-                    </span>
-                    <span style = "padding-left: 40%;"> © 2020 ROOM SEARCH PVT. LTD</span>
-                </footer> 
+                </span>
+            </footer> 
 
-        </div>
+        
 
     </body>
 </html>
